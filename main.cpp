@@ -215,7 +215,7 @@ void drive()
     }
     else if( RJSspeed < -60 )
     {
-      int temp = RJSspeed - 60;
+      int temp = RJSspeed + 60;
       RJSspeed = RJSspeed - temp;
     }
     // If the driver moves forward
